@@ -26,11 +26,14 @@ import sys
 	Added another column based on year to reflect the era, 
 	e.g. 60s, 70s, 80s, etc.
 
+	Apparently, those with copyright issues have 28 words. Remember
+	to double check before using them for analysis
+
 """
 
 
 reload(sys)
-sys.setdefaultencoding('utf-8')
+sys.setdefaultencoding('utf-8') # Avoiding encoding errors
 url = 'http://lyrics.wikia.com/api.php?'
 
 ## input csv
@@ -39,30 +42,30 @@ reader = csv.reader(inputFile)
 firstLine = True
 
 ## output csv
-outputFile = open('topHundredExtended.csv', 'w')
+# outputFile = open('topHundredExtended.csv', 'w')
+outputFile = open('topHundredExtended.csv', 'a') # Used if writing is disrupted midway
 outputWriter = csv.writer(outputFile)
-# outputWriter.writerow( ('Year', 'Title', 'Artist', 'Weeks', 'Rank', 'WordCount', "Decade") )
+outputWriter.writerow( ('Year', 'Title', 'Artist', 'Weeks', 'Rank', 'WordCount', "Decade") )
+
+## Tags that should be processed differently
+illegal_tag = [ "span", "p", "a", "img", "sup", "hr", "u", "div", "small" ]
+formatting_tag = [ "b", "i" ]
 
 ## Get url to wiki page with full lyrics: 
 ## http://api.wikia.com/wiki/LyricWiki_API
-rowcount = 1
+rowcount = 0
 
 for row in reader:
-
-	print rowcount
-	print
 	rowcount = rowcount +1
 
-	# if rowcount < 1962:
-	# if rowcount < 2306:
-	if rowcount < 3115:
+	if rowcount < 5410: # Picked up from where writing was disrupted
 		continue
 	# if firstLine:
 	# 	firstLine = False
 	# 	continue
 	else:
 		year = row[0]
-		print year
+		print "CURRENT ROW: " + str(rowcount) + " -- YEAR: " + str(year)
 		print
 
 		title = row[1].replace (" ", "_")
@@ -106,12 +109,12 @@ for row in reader:
 					filter_list = '<br/>'
 					print ele
 					if str(ele).encode('utf-8').strip() != filter_list:
-						if ele.name == "span" or ele.name == "p" or ele.name == "a" or ele.name == "img" or ele.name == "sup":
+						if ele.name in illegal_tag:
 							break
 						if ele:
-							if ele.name == "b" or ele.name == "i":
+							if ele.name in formatting_tag:
 								ele = ele.get_text()
-							if ele == "Unfortunately, we are not licensed to display the full lyrics for this song at the moment. Hopefully we will be able to in the future. Until then":
+							if ele == "Unfortunately, we are not licensed to display the full lyrics for this song at the moment. Hopefully we will be able to in the future. Until then... how about a ":
 								break
 							wordList = ele.split()
 							for word in wordList:
@@ -140,5 +143,7 @@ for row in reader:
 
 
 		print
-		print("##################################################")
+		print("(########################################################)")
 		print
+
+print "FINISH"
