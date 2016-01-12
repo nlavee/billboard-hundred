@@ -1,4 +1,4 @@
-library(mosaic); library(dplyr)
+library(mosaic); library(dplyr); library(ggplot2)
 
 # shorter name
 dataL <- na.omit(topHundredExtended)
@@ -20,10 +20,14 @@ favstats(dataL$Rank)
 favstats(dataL$WordCount)
 
 # exploratory graph
-densityplot( ~ WordCount, data = dataL, 
-             groups = Decade, xlim = c(0,350),
-             auto.key = TRUE)
+ggplot(dataL, aes(WordCount, color = Decade)) + geom_density() + xlim(c(0,400))
 
-xyplot(Rank ~ WordCount, data = dataL, groups = Decade)
+ggplot(dataL, aes(Rank, WordCount, color = Decade)) + geom_point()
 
-bwplot( WordCount ~ Decade, data = dataL)
+ggplot(dataL, aes(Decade, WordCount)) + geom_boxplot()
+ggplot(dataL, aes(Decade, Weeks)) + geom_boxplot()
+
+weekPerDecade <- dataL %>% group_by(Decade)
+weekPerDecade <- weekPerDecade %>% summarize(avg_week = mean(Weeks))
+
+ggplot(dataL, aes(Weeks, colour = Decade)) + geom_density()
