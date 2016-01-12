@@ -670,7 +670,7 @@ Year,Title,Artist,Weeks,Rank,WordCount,Decade
 1966,There's Something On Your Mind,Baby Ray,6,69,N/A,1960s
 1966,Grizzly Bear,The Youngbloods,10,70,38,1960s
 1966,Knight In Rusty Armour,Peter And Gordon,9,71,101,1960s
-1966,Communication Breakdown,Roy Orbison,7,72,28,1960s
+1966,Communication Breakdown,Roy Orbison,7,72,N/A,1960s
 1966,Another Night,Dionne Warwick,6,73,70,1960s
 1966,"Green, Green Grass Of Home",Tom Jones,12,74,89,1960s
 1966,Just One Smile,Gene Pitney,6,75,84,1960s
@@ -907,7 +907,7 @@ Year,Title,Artist,Weeks,Rank,WordCount,Decade
 1969,Holly Holy,Neil Diamond,14,6,65,1960s
 1969,Come Together/Something,The Beatles,16,7,N/A,1960s
 1969,I Want You Back,Jackson 5,19,8,117,1960s
-1969,Whole Lotta Love,Led Zeppelin,15,9,28,1960s
+1969,Whole Lotta Love,Led Zeppelin,15,9,N/A,1960s
 1969,Take A Letter Maria,R.B. Greaves,15,10,112,1960s
 1969,Midnight Cowboy,Ferrante & Teicher,15,11,N/A,1960s
 1969,Eli's Coming,Three Dog Night,14,12,60,1960s
@@ -1026,7 +1026,7 @@ Year,Title,Artist,Weeks,Rank,WordCount,Decade
 1970,Can't Stop Loving You,Tom Jones,8,25,66,1970s
 1970,Lonely Days,Bee Gees,14,26,34,1970s
 1970,Montego Bay,Bobby Bloom,16,27,88,1970s
-1970,Immigrant Song,Led Zeppelin,13,28,28,1970s
+1970,Immigrant Song,Led Zeppelin,13,28,N/A,1970s
 1970,Your Song,Elton John,14,29,126,1970s
 1970,Share The Land,The Guess Who,10,30,110,1970s
 1970,Love The One You're With,Stephen Stills,11,31,72,1970s
@@ -1165,7 +1165,7 @@ Year,Title,Artist,Weeks,Rank,WordCount,Decade
 1971,Truckin',Grateful Dead,8,64,189,1970s
 1971,Everybody Knows About My Good Thing Pt. 1,Little Johnny Taylor,8,65,N/A,1970s
 1971,Daisy Mae,"Hamilton, Joe Frank & Reynolds",11,66,N/A,1970s
-1971,Black Dog,Led Zeppelin,12,67,28,1970s
+1971,Black Dog,Led Zeppelin,12,67,N/A,1970s
 1971,No Sad Song,Helen Reddy,8,68,N/A,1970s
 1971,Take It Slow (Out In The Country),Lighthouse,7,69,125,1970s
 1971,Get Down,Curtis Mayfield,7,70,95,1970s
@@ -1318,7 +1318,7 @@ Year,Title,Artist,Weeks,Rank,WordCount,Decade
 1973,Let Me Be There,Olivia Newton-John,19,17,67,1970s
 1973,MIND GAMES,John Lennon,13,18,93,1970s
 1973,Until You Come Back To Me (That's What I'm Gonna Do),Aretha Franklin,21,19,118,1970s
-1973,D'yer Mak'er,Led Zeppelin,16,20,28,1970s
+1973,D'yer Mak'er,Led Zeppelin,16,20,N/A,1970s
 1973,Love's Theme,Love Unlimited Orchestra,22,21,0,1970s
 1973,The Whole Town's Laughing At Me,Teddy Pendergrass,0,22,71,1970s
 1973,The Way We Were,Barbra Streisand,23,23,63,1970s
@@ -1349,7 +1349,7 @@ Year,Title,Artist,Weeks,Rank,WordCount,Decade
 1973,Some Guys Have All The Luck,The Persuaders,11,48,112,1970s
 1973,A Song I'd Like To Sing,Kris Kristofferson & Rita Coolidge,10,49,56,1970s
 1973,If We Make It Through December,Merle Haggard,11,50,76,1970s
-1973,CorazÌÄåÄÌâå_n,Carole King,10,51,N/A,1970s
+1973,Corazí€Œ€í‰Œ_n,Carole King,10,51,N/A,1970s
 1973,Rock On,David Essex,25,52,14,1970s
 1973,Keep Your Head To The Sky,"Earth, Wind & Fire",11,53,N/A,1970s
 1973,Jungle Boogie,Kool & The Gang,22,54,N/A,1970s
@@ -1438,7 +1438,7 @@ Year,Title,Artist,Weeks,Rank,WordCount,Decade
 1974,"Ruby, Baby",Billy Crash Craddock,9,37,N/A,1970s
 1974,From His Woman To You,Barbara Mason,10,38,61,1970s
 1974,The Entertainer,Billy Joel,10,39,168,1970s
-1974,Best Of My Love,Eagles,19,40,28,1970s
+1974,Best Of My Love,Eagles,19,40,N/A,1970s
 1974,I Belong To You,Love Unlimited,15,41,77,1970s
 1974,You Ain't Seen Nothing Yet/Free Wheelin',Bachman-Turner Overdrive,17,42,N/A,1970s
 1974,Free Bird,Lynyrd Skynyrd,20,43,68,1970s
@@ -1560,7 +1560,7 @@ Year,Title,Artist,Weeks,Rank,WordCount,Decade
 1975,Who Loves You,The 4 Seasons,20,59,N/A,1970s
 1975,Theme From S.W.A.T.,Rhythm Heritage,24,60,0,1970s
 1975,Going Down Slowly,The Pointer Sisters,7,61,59,1970s
-1975,Take It To The Limit,Eagles,23,62,28,1970s
+1975,Take It To The Limit,Eagles,23,62,N/A,1970s
 1975,Christmas For Cowboys,John Denver,4,63,63,1970s
 1975,Inseparable,Natalie Cole,17,64,57,1970s
 1975,All By Myself,Eric Carmen,19,65,49,1970s
@@ -1618,7 +1618,7 @@ Year,Title,Artist,Weeks,Rank,WordCount,Decade
 1976,Nadia's Theme (The Young And The Restless),"Barry DeVorzon and Perry Botkin, Jr.",22,17,N/A,1970s
 1976,Nights Are Forever Without You,England Dan & John Ford Coley,16,18,61,1970s
 1976,Somebody To Love,Queen,15,19,122,1970s
-1976,New Kid In Town,Eagles,15,20,28,1970s
+1976,New Kid In Town,Eagles,15,20,N/A,1970s
 1976,Enjoy Yourself,The Jacksons,21,21,86,1970s
 1976,Lost Without Your Love,Bread,16,22,88,1970s
 1976,You Are The Woman,Firefall,22,23,67,1970s
@@ -1733,7 +1733,7 @@ Year,Title,Artist,Weeks,Rank,WordCount,Decade
 1977,(Love Is) Thicker Than Water,Andy Gibb,29,32,64,1970s
 1977,Don't Let Me Be Misunderstood,Santa Esmeralda Starring Leroy Gomez,19,33,N/A,1970s
 1977,Point Of Know Return,Kansas,14,34,82,1970s
-1977,DesirÌÄåÄÌâå©e,Neil Diamond,14,35,N/A,1970s
+1977,Desirí€Œ€í‰Œ©e,Neil Diamond,14,35,N/A,1970s
 1977,Native New Yorker,Odyssey,19,36,122,1970s
 1977,Girls' School,Wings,11,37,75,1970s
 1977,Your Smiling Face,James Taylor,17,38,93,1970s
@@ -1898,7 +1898,7 @@ Year,Title,Artist,Weeks,Rank,WordCount,Decade
 1978,You Never Done It Like That,Captain & Tennille,22,97,N/A,1970s
 1978,Ready To Take A Chance Again,Barry Manilow,16,98,66,1970s
 1978,Hot Child In The City,Nick Gilder,31,99,79,1970s
-1978,MaÌÄåÄÌâå±ana,Jimmy Buffett,6,100,N/A,1970s
+1978,Maí€Œ€í‰Œ±ana,Jimmy Buffett,6,100,N/A,1970s
 1979,Escape (The Pina Colada Song),Rupert Holmes,21,1,146,1970s
 1979,Please Don't Go,KC And The Sunshine Band,26,2,59,1970s
 1979,Babe,Styx,19,3,72,1970s
@@ -1915,10 +1915,10 @@ Year,Title,Artist,Weeks,Rank,WordCount,Decade
 1979,Head Games,Foreigner,14,14,117,1970s
 1979,Cruisin',Smokey Robinson,25,15,83,1970s
 1979,Better Love Next Time,Dr. Hook,19,16,80,1970s
-1979,The Long Run,Eagles,15,17,28,1970s
+1979,The Long Run,Eagles,15,17,N/A,1970s
 1979,Jane,Jefferson Starship,15,18,96,1970s
 1979,I Want You Tonight,Pablo Cruise,16,19,102,1970s
-1979,Heartache Tonight,Eagles,15,20,28,1970s
+1979,Heartache Tonight,Eagles,15,20,N/A,1970s
 1979,This Is It,Kenny Loggins,23,21,125,1970s
 1979,Coward Of The County,Kenny Rogers,19,22,194,1970s
 1979,I Wanna Be Your Lover,Prince,16,23,84,1970s
@@ -1962,7 +1962,7 @@ Year,Title,Artist,Weeks,Rank,WordCount,Decade
 1979,Move Your Boogie Body,Bar-Kays,7,61,90,1970s
 1979,Dig The Gold,Joyce Cobb,12,62,N/A,1970s
 1979,Last Train To London,Electric Light Orchestra,11,63,94,1970s
-1979,Fool In The Rain,Led Zeppelin,13,64,28,1970s
+1979,Fool In The Rain,Led Zeppelin,13,64,N/A,1970s
 1979,Why Me,Styx,13,65,111,1970s
 1979,September Morn',Neil Diamond,16,66,91,1970s
 1979,Daydream Believer,Anne Murray,17,67,74,1970s
@@ -2522,7 +2522,7 @@ Year,Title,Artist,Weeks,Rank,WordCount,Decade
 1985,Goodbye,Night Ranger,18,27,85,1980s
 1985,Everybody Dance,Ta Mara,21,28,N/A,1980s
 1985,Object Of My Desire,Starpoint,24,29,113,1980s
-1985,Sidewalk Talk,Jellybean,18,30,28,1980s
+1985,Sidewalk Talk,Jellybean,18,30,N/A,1980s
 1985,When The Going Gets Tough (Jewel Of The Nile Theme),Billy Ocean,23,31,85,1980s
 1985,Sex As A Weapon,Pat Benatar,13,32,90,1980s
 1985,Face The Face,Pete Townsend,16,33,N/A,1980s
@@ -2734,7 +2734,7 @@ Year,Title,Artist,Weeks,Rank,WordCount,Decade
 1987,What Have I Done To Deserve This?,Pet Shop Boys & Dusty Springfield,18,39,124,1980s
 1987,Push It,Salt-N-Pepa,25,40,105,1980s
 1987,Just Like Heaven,The Cure,19,41,107,1980s
-1987,The One I Love,R.E.M.,20,42,28,1980s
+1987,The One I Love,R.E.M.,20,42,N/A,1980s
 1987,I Think We're Alone Now,Tiffany,24,43,72,1980s
 1987,I Found Someone,Cher,26,44,84,1980s
 1987,Can't Stay Away From You,Gloria Estefan & Miami Sound Machine,23,45,96,1980s
@@ -2789,7 +2789,7 @@ Year,Title,Artist,Weeks,Rank,WordCount,Decade
 1987,It's A Sin,Pet Shop Boys,19,94,115,1980s
 1987,Who Will You Run To,Heart,22,95,98,1980s
 1987,Never Let Me Down Again,Depeche Mode,10,96,55,1980s
-1987,Causing A Commotion,Madonna,18,97,28,1980s
+1987,Causing A Commotion,Madonna,18,97,N/A,1980s
 1987,Here I Go Again,Whitesnake,28,98,86,1980s
 1987,Don't Tell Me The Time,Martha Davis,8,99,92,1980s
 1987,Don't Make Me Wait For Love,Kenny G. (Vocal By Lenny Williams),19,100,N/A,1980s
@@ -2912,7 +2912,7 @@ Year,Title,Artist,Weeks,Rank,WordCount,Decade
 1989,When The Night Comes,Joe Cocker,20,17,101,1980s
 1989,Two To Make It Right,Seduction,23,18,91,1980s
 1989,Living In Sin,Bon Jovi,19,19,113,1980s
-1989,Oh Father,Madonna,13,20,28,1980s
+1989,Oh Father,Madonna,13,20,N/A,1980s
 1989,Blame It On The Rain,Milli Vanilli,23,21,102,1980s
 1989,I Remember You,Skid Row,20,22,125,1980s
 1989,Rock And A Hard Place,The Rolling Stones,14,23,125,1980s
@@ -3205,7 +3205,7 @@ Year,Title,Artist,Weeks,Rank,WordCount,Decade
 1992,Real Love,Mary J. Blige,31,10,132,1990s
 1992,What About Your Friends,TLC,27,11,151,1990s
 1992,To Love Somebody,Michael Bolton,20,12,63,1990s
-1992,Deeper And Deeper,Madonna,17,13,28,1990s
+1992,Deeper And Deeper,Madonna,17,13,N/A,1990s
 1992,Love Is On The Way,Saigon Kick,22,14,68,1990s
 1992,Do You Believe In Us,Jon Secada,30,15,91,1990s
 1992,Layla,Eric Clapton,20,16,80,1990s
@@ -3220,7 +3220,7 @@ Year,Title,Artist,Weeks,Rank,WordCount,Decade
 1992,Never A Time,Genesis,20,25,107,1990s
 1992,The Last Song,Elton John,20,26,95,1990s
 1992,Would I Lie To You?,Charles,26,27,N/A,1990s
-1992,Drive,R.E.M.,15,28,28,1990s
+1992,Drive,R.E.M.,15,28,N/A,1990s
 1992,7,Prince And The New Power Generation,23,29,N/A,1990s
 1992,Sometimes Love Just Ain t Enough,Patty Smyth,24,30,N/A,1990s
 1992,Here We Go Again!,Portrait,23,31,N/A,1990s
@@ -3251,7 +3251,7 @@ Year,Title,Artist,Weeks,Rank,WordCount,Decade
 1992,Quality Time,Hi-Five,17,56,123,1990s
 1992,Reminisce,Mary J. Blige,20,57,102,1990s
 1992,I Don t Care,Shakespear s Sister,12,58,N/A,1990s
-1992,Erotica,Madonna,18,59,28,1990s
+1992,Erotica,Madonna,18,59,N/A,1990s
 1992,Stand Up (Kick Love Into Motion),Def Leppard,15,60,115,1990s
 1992,Everything s Gonna Be Alright,Father M.C.,20,61,N/A,1990s
 1992,Ditty,Paperboy,30,62,318,1990s
@@ -3356,7 +3356,7 @@ Year,Title,Artist,Weeks,Rank,WordCount,Decade
 1993,"Soul To Squeeze (From ""Coneheads"")",Red Hot Chili Peppers,20,61,129,1990s
 1993,Hopelessly,Rick Astley,20,62,79,1990s
 1993,Freakit,Das EFX,12,63,223,1990s
-1993,Everybody Hurts,R.E.M.,20,64,28,1990s
+1993,Everybody Hurts,R.E.M.,20,64,N/A,1990s
 1993,God Blessed Texas,Little Texas,12,65,91,1990s
 1993,"Stay (Faraway, So Close!)",U2,13,66,134,1990s
 1993,Into Your Arms,The Lemonheads,14,67,28,1990s
@@ -3404,9 +3404,9 @@ Year,Title,Artist,Weeks,Rank,WordCount,Decade
 1994,Tootsee Roll,69 Boyz,38,9,98,1990s
 1994,I m The Only One,Melissa Etheridge,40,10,N/A,1990s
 1994,You Want This/70 s Love Groove,Janet Jackson,22,11,N/A,1990s
-1994,Secret,Madonna,22,12,28,1990s
+1994,Secret,Madonna,22,12,N/A,1990s
 1994,Sukiyaki,4PM,32,13,N/A,1990s
-1994,Take A Bow,Madonna,30,14,28,1990s
+1994,Take A Bow,Madonna,30,14,N/A,1990s
 1994,Short Dick Man,20 Fingers Featuring Gillette,30,15,63,1990s
 1994,You Gotta Be,Des ree,44,16,108,1990s
 1994,All I Wanna Do,Sheryl Crow,33,17,171,1990s
@@ -3503,7 +3503,7 @@ Year,Title,Artist,Weeks,Rank,WordCount,Decade
 1995,Breakfast At Tiffany's,Deep Blue Something,36,8,84,1990s
 1995,Name,Goo Goo Dolls,36,9,115,1990s
 1995,Free As A Bird,The Beatles,11,10,47,1990s
-1995,You'll See,Madonna,20,11,28,1990s
+1995,You'll See,Madonna,20,11,N/A,1990s
 1995,Missing,Everything But The Girl,55,12,92,1990s
 1995,I Got Id/Long Road,Pearl Jam,20,13,N/A,1990s
 1995,Runaway,Janet Jackson,24,14,131,1990s
@@ -3662,7 +3662,7 @@ Year,Title,Artist,Weeks,Rank,WordCount,Decade
 1996,Sittin' On Top Of The World,Da Brat,16,67,258,1990s
 1996,"Bohemian Rhapsody (From ""High School High"")",The Braids,17,68,115,1990s
 1996,The Moment,Kenny G,14,69,0,1990s
-1996,Bittersweet Me,R.E.M.,12,70,28,1990s
+1996,Bittersweet Me,R.E.M.,12,70,N/A,1990s
 1996,I Luv U Baby,The Original,16,71,N/A,1990s
 1996,Jellyhead,Crush,21,72,110,1990s
 1996,Hero Of The Day,Metallica,18,73,107,1990s
@@ -3833,7 +3833,7 @@ Year,Title,Artist,Weeks,Rank,WordCount,Decade
 1998,Changes,2Pac,19,38,78,1990s
 1998,You re Beginning To Get To Me,Clay Walker,18,39,N/A,1990s
 1998,Someone You Used To Know,Collin Raye,14,40,76,1990s
-1998,The Power Of Good-Bye,Madonna,19,41,28,1990s
+1998,The Power Of Good-Bye,Madonna,19,41,N/A,1990s
 1998,Pushin  Weight,Ice Cube Featuring Mr. Short Khop,19,42,N/A,1990s
 1998,Hold Me,Brian McKnight Featuring Tone,12,43,91,1990s
 1998,You re Easy On The Eyes,Terri Clark,19,44,N/A,1990s
@@ -3971,7 +3971,7 @@ Year,Title,Artist,Weeks,Rank,WordCount,Decade
 1999,There She Goes,Sixpence None The Richer,20,76,37,1990s
 1999,We Can't Be Friends,Deborah Cox With R.L.,20,77,N/A,1990s
 1999,N 2 Gether Now,Limp Bizkit Featuring Method Man,11,78,368,1990s
-1999,The Great Beyond,R.E.M.,14,79,28,1990s
+1999,The Great Beyond,R.E.M.,14,79,N/A,1990s
 1999,Smile,Lonestar,20,80,81,1990s
 1999,Come On Over,Shania Twain,10,81,55,1990s
 1999,The Rockafeller Skank,Fatboy Slim,27,82,16,1990s
@@ -4019,10 +4019,10 @@ Year,Title,Artist,Weeks,Rank,WordCount,Decade
 2000,What's Your Fantasy,Ludacris Featuring Shawna,14,24,283,2000s
 2000,Beautiful Day,U2,13,25,126,2000s
 2000,My First Love,Avant Featuring Ketara Wyatt,9,26,83,2000s
-2000,Music,Madonna,21,27,28,2000s
+2000,Music,Madonna,21,27,N/A,2000s
 2000,My Next Thirty Years,Tim McGraw,11,28,111,2000s
 2000,Stronger,Britney Spears,5,29,77,2000s
-2000,Don't Tell Me,Madonna,4,30,28,2000s
+2000,Don't Tell Me,Madonna,4,30,N/A,2000s
 2000,Just Friends (Sunny),Musiq,12,31,117,2000s
 2000,Danger (Been So Long),Mystikal Featuring Nivea,3,32,218,2000s
 2000,Without You,Dixie Chicks,13,33,97,2000s
@@ -4227,7 +4227,7 @@ Year,Title,Artist,Weeks,Rank,WordCount,Decade
 2002,Ignition,R. Kelly,8,32,157,2000s
 2002,Disease,matchbox twenty,11,33,113,2000s
 2002,Picture,Kid Rock Featuring Sheryl Crow,5,34,139,2000s
-2002,Die Another Day,Madonna,11,35,28,2000s
+2002,Die Another Day,Madonna,11,35,N/A,2000s
 2002,I Should Be...,Dru Hill,4,36,135,2000s
 2002,Fabulous,Jaheim Featuring Tha Rayne,7,37,163,2000s
 2002,When I'm Gone,3 Doors Down,6,38,88,2000s
@@ -4513,7 +4513,7 @@ Year,Title,Artist,Weeks,Rank,WordCount,Decade
 2005,Here We Go,Trina Featuring Kelly Rowland,13,18,229,2000s
 2005,We Be Burnin',Sean Paul,16,19,158,2000s
 2005,Be Without You,Mary J. Blige,6,20,173,2000s
-2005,Hung Up,Madonna,9,21,28,2000s
+2005,Hung Up,Madonna,9,21,N/A,2000s
 2005,"Sugar, We're Goin' Down",Fall Out Boy,27,22,96,2000s
 2005,You're Beautiful,James Blunt,8,23,84,2000s
 2005,"Dance, Dance",Fall Out Boy,9,24,118,2000s
