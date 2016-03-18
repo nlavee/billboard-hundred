@@ -1,5 +1,10 @@
 library(mosaic); library(dplyr); library(ggplot2)
 
+'''
+  R script for Data Exploration. Focusing more on Graphs rather than 
+  actual Statistical analaysis.
+'''
+
 # shorter name
 dataL <- na.omit(topHundredExtended)
 
@@ -20,24 +25,38 @@ favstats(dataL$Rank)
 favstats(dataL$WordCount)
 
 # exploratory graph
-ggplot(dataL, aes(WordCount, color = Decade)) + geom_density() + xlim(c(0,400))
+ggplot(dataL, aes(WordCount, color = Decade)) + geom_density() + xlim(c(0,400)) +
+  labs( title = "Word Count of Billboard Top 100 songs over the decades")
 
 ggplot(dataL, aes(Rank, WordCount, color = Decade)) + geom_point()
 
-ggplot(dataL, aes(Decade, WordCount)) + geom_boxplot()
-ggplot(dataL, aes(Decade, Weeks)) + geom_boxplot()
+ggplot(dataL, aes(Decade, WordCount)) + geom_boxplot() + 
+  geom_text(data = topWordCount, aes(Decade, WordCount, label = paste(Title, "(", as.character(WordCount), ")")), vjust = -1) +
+  labs( title = "Word Count of Billboard Top 100 songs over the decades")
+
+topWeeks <- filter(dataL, Weeks >= 60)
+ggplot(dataL, aes(Decade, Weeks)) + geom_boxplot() + 
+  geom_text(data = topWeeks, aes(Decade, Weeks, label = paste(Title, "(", as.character(Weeks), ")")), vjust = -1) +
+  labs( title = "Weeks on Billboard Top 100 songs over the decades")
 
 weekPerDecade <- dataL %>% group_by(Decade)
 weekPerDecade <- weekPerDecade %>% summarize(avg_week = mean(Weeks))
 
 ggplot(dataL, aes(Weeks, colour = Decade)) + geom_density()
 
-ggplot(dataL, aes(Rank, WordCount, colour = Decade)) + geom_smooth(method="lm", se = FALSE)
+ggplot(dataL, aes(Rank, WordCount, colour = Decade)) + geom_smooth(method="lm", se = FALSE) +
+  labs( title = "Regression line between Word Count and Rank through different decades")
+
+ggplot(dataL, aes(WordCount, Weeks, colour = Decade)) + geom_smooth(method="lm", se = FALSE) +
+  labs( title = "Regression line between Word Count and Weeks through different decades")
+
+ggplot(dataL, aes(Weeks, WordCount)) + geom_smooth(method="lm", se = FALSE) +
+  labs( title = "Regression line between Word Count and Weeks overall")
 
 top25 <- filter(dataL, Rank <= 25)
 ggplot(top25, aes(Rank, WordCount, colour = Decade)) + geom_smooth(method="lm", se = FALSE)
 
-## Word Count over Time
+#### Word Count over Time ####
 topWordCount <- filter(dataL, WordCount >= 450)
 ggplot(dataL, aes(Year, WordCount)) + 
   geom_point() + 
@@ -46,10 +65,9 @@ ggplot(dataL, aes(Year, WordCount)) +
   labs( title = "Word Count of Billboard Top 100 songs over the year")
 
 
+
+#### Top artist for each generation ####
 ggplot(dataL, aes(Artist)) + geom_bar() + coord_flip() ## too big, not very useful
-
-
-## Top artist for each generation
 
 #1960s
 topArtist1960s <- sixties %>% group_by(Artist) %>%
@@ -131,6 +149,4 @@ ggplot(topArtist2010s, aes(x = factor(Artist), y = count_billboard, label = coun
   geom_bar(stat = "identity", fill = "cornflowerblue") + 
   geom_label(aes(y = count_billboard + 0.5)) + 
   labs( title = "Top Artist in the 2010s", x = "Artist", y="Count on Billboard") + coord_flip()
-
-
 
